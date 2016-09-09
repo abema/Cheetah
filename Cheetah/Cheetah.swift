@@ -99,15 +99,33 @@ open class Cheetah {
         return self
     }
     
-    public var anchorTop: Cheetah { anchor(CGPointMake(0.5, 1)); return self }
-    public var anchorBottom: Cheetah { anchor(CGPointMake(0.5, 1)); return self }
-    public var anchorLeft: Cheetah { anchor(CGPointMake(0, 0.5)); return self }
-    public var anchorRight: Cheetah { anchor(CGPointMake(1, 0.5)); return self }
-    public var anchorBottomLeft: Cheetah { anchor(CGPointMake(0, 1)); return self }
-    public var anchorBottomRight: Cheetah { anchor(CGPointMake(1, 1)); return self }
-    public var anchorTopLeft: Cheetah { anchor(CGPointMake(0, 0)); return self }
-    public var anchorTopRight: Cheetah { anchor(CGPointMake(1, 0)); return self }
-    public var anchorCenter: Cheetah { anchor(CGPointMake(0.5, 0.5)); return self }
+    open var anchorTop: Cheetah {
+        return anchor(CGPoint(x: 0.5, y: 1))
+    }
+    open var anchorBottom: Cheetah {
+        return anchor(CGPoint(x: 0.5, y: 1));
+    }
+    open var anchorLeft: Cheetah {
+        return anchor(CGPoint(x: 0, y: 0.5))
+    }
+    open var anchorRight: Cheetah {
+        return anchor(CGPoint(x: 1, y: 0.5))
+    }
+    open var anchorBottomLeft: Cheetah {
+        return anchor(CGPoint(x: 0, y: 1))
+    }
+    open var anchorBottomRight: Cheetah {
+        return anchor(CGPoint(x: 1, y: 1))
+    }
+    open var anchorTopLeft: Cheetah {
+        return anchor(CGPoint(x: 0, y: 0))
+    }
+    open var anchorTopRight: Cheetah {
+        return anchor(CGPoint(x: 1, y: 0))
+    }
+    open var anchorCenter: Cheetah {
+        return anchor(CGPoint(x: 0.5, y: 0.5))
+    }
     
     // MARK: Time & Timings
     
@@ -196,7 +214,7 @@ open class Cheetah {
     // Wait all properties completed
     open func wait(_ seconds: CFTimeInterval = 0) -> Cheetah {
         // Stack new group to list
-        addGroup()
+        _ = addGroup()
         groups.last?.delay = seconds
         return self
     }
@@ -304,7 +322,7 @@ open class Cheetah {
     // Add property to current group
     open func addProperty(_ prop: CheetahProperty) -> Cheetah {
         if groups.count == 0 {
-            addGroup()
+            _ = addGroup()
         }
         if let group = groups.last {
             prop.group = group
@@ -323,5 +341,4 @@ open class Cheetah {
         groups.append(group)
         return group
     }
-    
 }

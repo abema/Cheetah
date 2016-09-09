@@ -63,7 +63,7 @@ open class CheetahManager {
                 if let view = cheetah.view {
                     objc_setAssociatedObject(view, &cheetahAssociationKey, nil, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
                 }
-                cheetah.remove()
+                _ = cheetah.remove()
                 // remove cheetah from dic
                 cheetahs[cheetah.id] = nil
             }
