@@ -341,4 +341,12 @@ open class Cheetah {
         groups.append(group)
         return group
     }
+    
+    // Set animation duration
+    open func setDuration(_ seconds: CFTimeInterval) {
+        if let lastProperty = lastProperty {
+            lastProperty.duration = seconds
+        }
+        groups.last?.duration = seconds
+    }
 }
