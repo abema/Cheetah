@@ -10,7 +10,9 @@
 // http://opensource.apple.com/source/WebCore/WebCore-955.66/platform/graphics/UnitBezier.h
 //
 
+#if os(tvOS)
 import CoreGraphics
+#endif
 
 private let epsilon: CGFloat = 1.0 / 1000
 
