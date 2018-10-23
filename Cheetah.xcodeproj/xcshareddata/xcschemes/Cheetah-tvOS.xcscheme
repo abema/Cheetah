@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F96CF661B8436F80014443A"
+               BlueprintIdentifier = "ED8C38122175D484006203F0"
                BuildableName = "Cheetah.framework"
-               BlueprintName = "Cheetah"
+               BlueprintName = "Cheetah-tvOS"
                ReferencedContainer = "container:Cheetah.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6F96CF701B8436F80014443A"
-               BuildableName = "CheetahTests.xctest"
-               BlueprintName = "CheetahTests"
-               ReferencedContainer = "container:Cheetah.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F96CF661B8436F80014443A"
-            BuildableName = "Cheetah.framework"
-            BlueprintName = "Cheetah"
-            ReferencedContainer = "container:Cheetah.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F96CF661B8436F80014443A"
+            BlueprintIdentifier = "ED8C38122175D484006203F0"
             BuildableName = "Cheetah.framework"
-            BlueprintName = "Cheetah"
+            BlueprintName = "Cheetah-tvOS"
             ReferencedContainer = "container:Cheetah.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6F96CF661B8436F80014443A"
+            BlueprintIdentifier = "ED8C38122175D484006203F0"
             BuildableName = "Cheetah.framework"
-            BlueprintName = "Cheetah"
+            BlueprintName = "Cheetah-tvOS"
             ReferencedContainer = "container:Cheetah.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
