@@ -66,7 +66,7 @@
 		6F96CFC01B85674A0014443A /* CheetahLayerProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahLayerProperties.swift; sourceTree = "<group>"; };
 		6F96CFC21B85B8690014443A /* CheetahGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahGroup.swift; sourceTree = "<group>"; };
 		6FD01F881BB3FE4900FF26E5 /* CheetahConstraintProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheetahConstraintProperties.swift; sourceTree = "<group>"; };
-		ED8C38132175D484006203F0 /* Cheetah-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Cheetah-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8C38132175D484006203F0 /* Cheetah.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cheetah.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		6F96CF681B8436F80014443A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED8C38132175D484006203F0 /* Cheetah-tvOS.framework */,
+				ED8C38132175D484006203F0 /* Cheetah.framework */,
 				6F96CF671B8436F80014443A /* Cheetah.framework */,
 				6F96CF711B8436F80014443A /* CheetahTests.xctest */,
 			);
@@ -217,7 +217,7 @@
 			);
 			name = "Cheetah-tvOS";
 			productName = "Cheetah-tvOS";
-			productReference = ED8C38132175D484006203F0 /* Cheetah-tvOS.framework */;
+			productReference = ED8C38132175D484006203F0 /* Cheetah.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -555,7 +555,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.suguru.Cheetah-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Cheetah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -596,7 +596,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.suguru.Cheetah-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Cheetah;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;

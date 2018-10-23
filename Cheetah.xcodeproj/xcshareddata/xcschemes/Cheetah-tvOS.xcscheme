@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED8C38122175D484006203F0"
-               BuildableName = "Cheetah-tvOS.framework"
+               BuildableName = "Cheetah.framework"
                BlueprintName = "Cheetah-tvOS"
                ReferencedContainer = "container:Cheetah.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED8C38122175D484006203F0"
-            BuildableName = "Cheetah-tvOS.framework"
+            BuildableName = "Cheetah.framework"
             BlueprintName = "Cheetah-tvOS"
             ReferencedContainer = "container:Cheetah.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED8C38122175D484006203F0"
-            BuildableName = "Cheetah-tvOS.framework"
+            BuildableName = "Cheetah.framework"
             BlueprintName = "Cheetah-tvOS"
             ReferencedContainer = "container:Cheetah.xcodeproj">
          </BuildableReference>
