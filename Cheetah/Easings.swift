@@ -10,7 +10,7 @@ import UIKit
 
 public typealias Easing = (_ t:CGFloat, _ b:CGFloat, _ c:CGFloat) -> CGFloat
 
-private let F_PI = CGFloat(M_PI)
+private let F_PI = CGFloat(Double.pi)
 
 // Calculate cubic bezier curve
 public struct Easings {

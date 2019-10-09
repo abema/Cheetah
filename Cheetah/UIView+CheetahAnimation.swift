@@ -10,7 +10,7 @@ import UIKit
 
 var cheetahAssociationKey = "cheetahAssociation"
 
-public extension UIView {
+extension UIView {
     
     public var cheetah: Cheetah {
         get {
