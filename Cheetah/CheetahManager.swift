@@ -10,7 +10,7 @@ import UIKit
 
 open class CheetahManager {
     
-    open static let sharedInstance = CheetahManager()
+    public static let sharedInstance = CheetahManager()
     
     var cheetahs = [UInt32 : Cheetah]()
     var counter: UInt32
